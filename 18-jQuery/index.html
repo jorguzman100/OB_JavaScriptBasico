@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <title>jQuery</title>
+</head>
+
+<body>
+
+    <header class="bg-dark">
+		<div class="container">
+			<h1 class="text-white">Welcome to my website</h1>
+			<nav>
+				<ul class="nav">
+					<li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">About</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<main class="container mt-4">
+		<button type="button" class="btn btn-success fadeIn-btn">Fade In</button>
+		<button type="button" class="btn btn-danger fadeOut-btn">Fade Out</button>
+		<button type="button" class="btn btn-primary addSection-btn">Add section</button>
+		<section>
+			<h2>About Us</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis lacinia orci, eu sagittis velit. Nulla at elit tincidunt, fermentum ipsum vel, congue sapien. Donec nec suscipit eros. In vestibulum metus sit amet ipsum fringilla, vitae ullamcorper velit laoreet. Sed nec imperdiet dolor, ut auctor lectus. Sed feugiat velit et ipsum ullamcorper, vel scelerisque quam vulputate. Duis vitae ipsum enim. </p>
+		</section>
+		<section>
+			<h2>Services</h2>
+			<ul class="list-group">
+				<li class="list-group-item"><a href="#">Web Design</a></li>
+				<li class="list-group-item"><a href="#">Web Development</a></li>
+				<li class="list-group-item"><a href="#">Graphic Design</a></li>
+				<li class="list-group-item"><a href="#">SEO</a></li>
+			</ul>
+		</section>
+		<section>
+			<h2>Contact Us</h2>
+			<form>
+				<div class="form-group">
+					<label for="name">Name:</label>
+					<input type="text" id="name" name="name" class="form-control">
+				</div>
+				<div class="form-group">
+					<label for="email">Email:</label>
+					<input type="email" id="email" name="email" class="form-control">
+				</div>
+				<div class="form-group">
+					<label for="message">Message:</label>
+					<textarea id="message" name="message" class="form-control"></textarea>
+				</div>
+				<button type="submit" class="btn btn-primary">Submit</button>
+			</form>
+		</section>
+	</main>
+	<footer class="bg-dark text-white p-3">
+		<div class="container">
+			<p class="text-center">Copyright © 2023</p>
+		</div>
+	</footer>
+
+</body>
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="index.js"></script>
+
+</html>
